@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Glingener\\": "src/"
+            "Glingener\\": "Glingener/"
         }
     },
     "require": {
