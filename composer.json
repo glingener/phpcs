@@ -1,0 +1,27 @@
+{
+    "name": "glingener/phpcs",
+    "type": "phpcodesniffer-standard",
+    "description": "Rules for PHP_CodeSniffer.",
+    "license": "MIT",
+    "keywords" : [ "phpcs", "PHP_CodeSniffer", "sniffs", "standards" ],
+    "authors": [
+        {
+            "name": "Christian Glingener",
+            "homepage": "https://github.com/glingener"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Glingener\\": "src/"
+        }
+    },
+    "require": {
+        "squizlabs/php_codesniffer": "^3.7",
+         "slevomat/coding-standard": "^8.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
