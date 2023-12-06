@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Glingener\Sniffs\Class;
+namespace Glingener\Sniffs\Classes;
 
 use PHP_CodeSniffer\Sniffs\Sniff;
 use PHP_CodeSniffer\Files\File;
